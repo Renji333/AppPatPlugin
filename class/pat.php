@@ -23,7 +23,9 @@ class pat
         include_once plugin_dir_path( __FILE__ ).'../views/pat.php';
     }
 
-    public function importImgs($dir,$e){
+    public function importImgs($dir,$e,$key){
+
+        global $wpdb;
 
         $pathImg = "$dir/$e/";
         $results = scandir($pathImg);
@@ -63,9 +65,12 @@ class pat
                     $attachment_id = wp_insert_attachment( $attachment, $upload_file['file'], 0 );
 
                     if (!is_wp_error($attachment_id)) {
+
                         require_once(ABSPATH . "wp-admin" . '/includes/image.php');
                         $attachment_data = wp_generate_attachment_metadata( $attachment_id, $upload_file['file'] );
                         wp_update_attachment_metadata( $attachment_id,  $attachment_data );
+
+                        $wpdb->insert("{$wpdb->prefix}imported_files", array('aides' => $key,'idPost' => $attachment_id));
 
                     }else{
                         echo '<div class="alert alert-warning" role="alert">'.$result.'</div>';
@@ -87,6 +92,8 @@ class pat
 
             if (isset($_REQUEST["key"]) && isset($_REQUEST["v"]))  {
 
+                global $wpdb;
+
                 $dir =  plugin_dir_path( __FILE__ ).'../aides/'.$_REQUEST["key"];
 
                 if(is_dir($dir)){
@@ -107,8 +114,10 @@ class pat
                         unlink($dir."".$name);
                     }
 
-                    $this->importImgs($dir,'images');
-                    $this->importImgs($dir,'schemas');
+                    $wpdb->delete("{$wpdb->prefix}imported_files" , array('aides' => $_REQUEST["key"] ));
+
+                    $this->importImgs($dir,'images',$_REQUEST["key"]);
+                    $this->importImgs($dir,'schemas',$_REQUEST["key"]);
 
                     $pathHtm = $dir.'/html/';
                     $results = scandir($pathHtm);
@@ -139,12 +148,16 @@ class pat
                             $corps = preg_replace('/src="..\/schemas\//','src="'.$UploadPath['url'].'/',$corps);
 
                             $pat = term_exists( 'PAT', 'category' );
-
                             if (is_wp_error($pat) || $pat == NULL ) {
                                 $pat = wp_insert_term('PAT', 'category', [ 'slug' => 'PAT']);
                             }
-
                             array_push($CatId, $pat['term_id']);
+
+                            $aideCat = term_exists( $_REQUEST["key"], 'category' );
+                            if (is_wp_error($aideCat) || $aideCat == NULL ) {
+                                $aideCat = wp_insert_term($_REQUEST["key"], 'category', ['parent' => $pat['term_id']]);
+                            }
+                            array_push($CatId, $aideCat['term_id']);
 
                             $new_post = array(
                                 'post_title' => html_entity_decode($title),
@@ -156,15 +169,23 @@ class pat
 
                             $postsId = wp_insert_post( $new_post );
 
-                            $this->insertTitleNlpLinks($title,$result,$postsId);
+                            $this->insertTitleNlpLinks($result,$postsId);
+
+                            $wpdb->insert("{$wpdb->prefix}imported_files", array('aides' => $_REQUEST['key'],'idPost' => $postsId));
 
                         }
 
                     }
 
+                    $hhc = new SimpleXMLElement(file_get_contents($dir.'/master/patritec.hhc', FILE_USE_INCLUDE_PATH));
+
+                    createToc($hhc,$dir.'/toc.txt');
+
+                    $this->insertToc($_REQUEST["key"],file_get_contents($dir.'/toc.txt', FILE_USE_INCLUDE_PATH));
+
                 }
 
-                update_option( $_REQUEST["key"], intval($_REQUEST["v"]));
+                update_option( $_REQUEST["key"], htmlspecialchars($_REQUEST["v"]));
                 $this->bool = true;
 
                 chmod($dir, 0777) ;
@@ -176,14 +197,20 @@ class pat
 
     }
 
-    public function insertTitleNlpLinks($txt,$link,$id){
+    public function insertTitleNlpLinks($link,$id){
         global $wpdb;
-        $txt = htmlspecialchars($txt);
         $id = htmlspecialchars($id);
         $link = str_replace('archive/','',htmlspecialchars($link));
         $link = str_replace('corps/','newsletter_',htmlspecialchars($link));
         $link = str_replace('_corps.inc','',htmlspecialchars($link));
-        $wpdb->insert("{$wpdb->prefix}titles_and_links", array('title' => $txt,'file' => $link,'idPost' => $id));
+        $wpdb->insert("{$wpdb->prefix}titles_and_links", array('file' => $link,'idPost' => $id));
+    }
+
+    public function insertToc($key,$toc){
+        global $wpdb;
+        $key = htmlspecialchars($key);
+        $wpdb->delete("{$wpdb->prefix}tocs" , array('aides' => $key ));
+        $wpdb->insert("{$wpdb->prefix}tocs", array('aides' => $key,'content' => $toc));
     }
 
 }
@@ -205,4 +232,57 @@ function utf8_fopen_read($fileName) {
     fwrite($handle, $fc);
     fseek($handle, 0);
     return $handle;
+}
+
+function createToc($xml,$file){
+
+    $panel = array("fiscalite","famille","epargne","retraite","credits","dirigeants","dossiers","outils");
+    $i = 0;
+
+    foreach ($xml as $key) {
+
+        if($key["name"] != ''){
+
+            writeInTocFile($file, "<div id=\"panel-$panel[$i]\"><ul>");
+
+            foreach ($key->item as $item) {
+                writeFolder($item,$file);
+            }
+
+            writeInTocFile($file, "</ul></div>");
+
+            $i = $i + 1;
+
+        }
+
+    }
+
+}
+
+function writeFolder($e,$file){
+
+    $name = $e["name"];
+
+    if(!$e["link"]){
+
+        writeInTocFile($file, "<li><span>$name</span><ul>");
+
+        foreach ($e->item as $item) {
+            writeFolder($item,$file);
+        }
+
+        writeInTocFile($file, "</ul></li>");
+
+    }else{
+        $link = $e["link"];
+        writeInTocFile($file, "<li><a href='$link'>$name</a></li>");
+    }
+
+}
+
+function writeInTocFile($path,$msg){
+    $f = fopen($path, "a+");
+    fwrite($f, $msg);
+    fclose($f);
+    chmod($path, 0777);
 }

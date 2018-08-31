@@ -17,12 +17,16 @@ class AppPatPlugin {
 
 		// IMPORT DES FICHIERS POUR LA RECUPERATION
         include_once plugin_dir_path( __FILE__ ).'/class/pat.php';
+        include_once plugin_dir_path( __FILE__ ).'/class/SyncLink.php';
+        include_once plugin_dir_path( __FILE__ ).'/class/SyncPatLink.php';
 
 		// IMPORT DE LA GESTION DES LIENS
 		include_once plugin_dir_path( __FILE__ ).'/class/links.php';
 
 		// INITIALISATION DES CLASS
         new pat();
+        new SyncLink();
+        new SyncPatLink();
 
 		// INITIALISATION DE LA GESTION DES LIENS
 		new links();
@@ -44,18 +48,18 @@ class AppPatPlugin {
 
 	public static function install()
 	{
-
 	    global $wpdb;
-        $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}titles_and_links (id INT AUTO_INCREMENT PRIMARY KEY, idPost INT NOT NULL, title TEXT, file TEXT);");
-
+        $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}titles_and_links (id INT AUTO_INCREMENT PRIMARY KEY, idPost INT NOT NULL, file TEXT);");
+        $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}tocs (id INT AUTO_INCREMENT PRIMARY KEY, aides VARCHAR(50), content LONGTEXT);");
+        $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}imported_files (id INT AUTO_INCREMENT PRIMARY KEY, aides VARCHAR(50), idPost INT NOT NULL);");
 	}
 
 	public static function uninstall()
 	{
-
 	    global $wpdb;
         $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}titles_and_links;");
-
+        $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}tocs;");
+        $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}imported_files;");
 	}
 
 }

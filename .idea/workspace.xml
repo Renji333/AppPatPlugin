@@ -14,27 +14,60 @@
       <file leaf-file-name="AppPatPlugin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="3">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#7#144#0#PHP" expanded="true" />
-                <marker date="1535533960737" expanded="true" signature="1159:1297" ph="CREATE TABLE... IF" />
-                <marker date="1535533960737" expanded="true" signature="1388:1440" ph="DROP TABLE I... " />
+                <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+                <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+                <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+                <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+                <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+                <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/pat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="160" column="25" lean-forward="true" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+            <state relative-caret-position="17">
+              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding>
-                <element signature="n#importImgs#0;n#pat#0;n#!!top" expanded="false" />
                 <element signature="n#rrmdir#0;n#!!top" expanded="false" />
                 <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
-                <marker date="1535546153310" expanded="true" signature="4715:4861" ph="..." />
+                <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+                <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+                <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+                <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+                <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncLink.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="180" lean-forward="false" selection-start-line="28" selection-start-column="180" selection-end-line="28" selection-end-column="200" />
+              <folding>
+                <marker date="1535719348214" expanded="true" signature="652:762" ph="SELECT a.*, $" />
+                <marker date="1535719348214" expanded="true" signature="833:976" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="833:1001" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1036:1176" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1036:1201" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1236:1373" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1236:1398" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1433:1550" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1433:1575" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1610:1724" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1610:1749" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1784:1896" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1784:1921" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1956:2067" ph="UPDATE $... " />
+                <marker date="1535719348214" expanded="true" signature="1956:2092" ph="UPDATE $... " />
               </folding>
             </state>
           </provider>
@@ -57,8 +90,13 @@
         <option value="$PROJECT_DIR$/class/links.php" />
         <option value="$PROJECT_DIR$/views/pat.php" />
         <option value="$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/class/recups/Nlp.php" />
-        <option value="$PROJECT_DIR$/AppPatPlugin.php" />
+        <option value="$PROJECT_DIR$/aides/integrale/toc.txt" />
         <option value="$PROJECT_DIR$/class/pat.php" />
+        <option value="$PROJECT_DIR$/views/SyncLink.php" />
+        <option value="$PROJECT_DIR$/class/SyncLink.php" />
+        <option value="$PROJECT_DIR$/AppPatPlugin.php" />
+        <option value="$PROJECT_DIR$/class/SyncPatLink.php" />
+        <option value="$PROJECT_DIR$/views/SyncPatLink.php" />
       </list>
     </option>
   </component>
@@ -90,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,23 +159,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/class/recups/Nlp.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../themes/AppPatTheme" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin\views" />
+      <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin\class" />
+      <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin\aides\integrale" />
+      <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin\js" />
       <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin\aides\integrale" />
-      <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin\views" />
-      <recent name="C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,20 +207,25 @@
       <updated>1535458067000</updated>
       <workItem from="1535458068152" duration="11178000" />
       <workItem from="1535530664508" duration="5657000" />
-      <workItem from="1535542058388" duration="5143000" />
+      <workItem from="1535542058388" duration="7030000" />
+      <workItem from="1535616247671" duration="7006000" />
+      <workItem from="1535627400642" duration="10977000" />
+      <workItem from="1535703467260" duration="913000" />
+      <workItem from="1535715578236" duration="4301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21978000" />
+    <option name="totallyTimeSpent" value="47062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11886994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14392324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -213,12 +257,200 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#144#0#PHP" expanded="true" />
+            <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/pat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="185" column="21" lean-forward="false" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
+          <folding>
+            <element signature="n#rrmdir#0;n#!!top" expanded="false" />
+            <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
+            <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+          <folding>
+            <marker date="1535719348214" expanded="true" signature="652:762" ph="SELECT a.*, $" />
+            <marker date="1535719348214" expanded="true" signature="833:976" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="833:1001" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1036:1176" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1036:1201" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1236:1373" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1236:1398" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1433:1550" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1433:1575" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1610:1724" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1610:1749" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1784:1896" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1784:1921" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1956:2067" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1956:2092" ph="UPDATE $... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/SyncLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#144#0#PHP" expanded="true" />
+            <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/pat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="185" column="21" lean-forward="false" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
+          <folding>
+            <element signature="n#rrmdir#0;n#!!top" expanded="false" />
+            <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
+            <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1535719348214" expanded="true" signature="652:762" ph="SELECT a.*, $" />
+            <marker date="1535719348214" expanded="true" signature="833:976" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="833:1001" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1036:1176" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1036:1201" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1236:1373" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1236:1398" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1433:1550" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1433:1575" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1610:1724" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1610:1749" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1784:1896" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1784:1921" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1956:2067" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1956:2092" ph="UPDATE $... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="49" column="127" lean-forward="false" selection-start-line="49" selection-start-column="124" selection-end-line="49" selection-end-column="131" />
+          <folding>
+            <element signature="e#7#144#0#PHP" expanded="true" />
+            <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/pat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="176" column="18" lean-forward="false" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+          <folding>
+            <element signature="n#rrmdir#0;n#!!top" expanded="false" />
+            <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
+            <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#7#144#0#PHP" expanded="true" />
-            <marker date="1535533960737" expanded="true" signature="1159:1297" ph="CREATE TABLE... IF" />
-            <marker date="1535533960737" expanded="true" signature="1388:1440" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/pat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="160" column="25" lean-forward="false" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+          <folding>
+            <element signature="n#rrmdir#0;n#!!top" expanded="false" />
+            <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
+            <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#144#0#PHP" expanded="true" />
+            <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
@@ -227,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -236,10 +467,13 @@
         <state relative-caret-position="1751">
           <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
           <folding>
-            <element signature="n#importImgs#0;n#pat#0;n#!!top" expanded="false" />
             <element signature="n#rrmdir#0;n#!!top" expanded="false" />
             <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
-            <marker date="1535546153310" expanded="true" signature="4715:4861" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
           </folding>
         </state>
       </provider>
@@ -250,8 +484,12 @@
           <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="e#7#144#0#PHP" expanded="true" />
-            <marker date="1535533960737" expanded="true" signature="1159:1297" ph="CREATE TABLE... IF" />
-            <marker date="1535533960737" expanded="true" signature="1388:1440" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
@@ -260,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -269,10 +506,13 @@
         <state relative-caret-position="918">
           <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
           <folding>
-            <element signature="n#importImgs#0;n#pat#0;n#!!top" expanded="false" />
             <element signature="n#rrmdir#0;n#!!top" expanded="false" />
             <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
-            <marker date="1535546153310" expanded="true" signature="4715:4861" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
           </folding>
         </state>
       </provider>
@@ -281,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -290,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <marker date="1535463204804" expanded="true" signature="644:769" ph="SELECT `ID`,... ${{$wpdb-&gt;prefix}}posts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -301,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="241" column="4" lean-forward="false" selection-start-line="241" selection-start-column="4" selection-end-line="249" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -309,31 +544,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aides/integrale/toc.txt" />
+    <entry file="file://$PROJECT_DIR$/class/SyncTocLink.php" />
+    <entry file="file://$PROJECT_DIR$/class/SyncPatLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <marker date="1535719526298" expanded="true" signature="690:800" ph="SELECT a.*, $" />
+            <marker date="1535719526298" expanded="true" signature="871:978" ph="UPDATE $... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/SyncLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/SyncPatLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="94" lean-forward="false" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="3">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#7#144#0#PHP" expanded="true" />
-            <marker date="1535533960737" expanded="true" signature="1159:1297" ph="CREATE TABLE... IF" />
-            <marker date="1535533960737" expanded="true" signature="1388:1440" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1356:1482" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1509:1628" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1655:1787" ph="CREATE TABLE... IF" />
+            <marker date="1535719441084" expanded="true" signature="1876:1928" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="1955:1995" ph="DROP TABLE I... " />
+            <marker date="1535719441084" expanded="true" signature="2022:2072" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/pat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="160" column="25" lean-forward="true" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
-            <element signature="n#importImgs#0;n#pat#0;n#!!top" expanded="false" />
             <element signature="n#rrmdir#0;n#!!top" expanded="false" />
             <element signature="n#utf8_fopen_read#0;n#!!top" expanded="false" />
-            <marker date="1535546153310" expanded="true" signature="4715:4861" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="5040:5186" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8968:9124" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="8972:9118" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9291:9446" ph="..." />
+            <marker date="1535718873358" expanded="true" signature="9313:9441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="180" lean-forward="false" selection-start-line="28" selection-start-column="180" selection-end-line="28" selection-end-column="200" />
+          <folding>
+            <marker date="1535719348214" expanded="true" signature="652:762" ph="SELECT a.*, $" />
+            <marker date="1535719348214" expanded="true" signature="833:976" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="833:1001" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1036:1176" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1036:1201" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1236:1373" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1236:1398" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1433:1550" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1433:1575" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1610:1724" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1610:1749" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1784:1896" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1784:1921" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1956:2067" ph="UPDATE $... " />
+            <marker date="1535719348214" expanded="true" signature="1956:2092" ph="UPDATE $... " />
           </folding>
         </state>
       </provider>
