@@ -1,0 +1,1 @@
+Les plafonds applicables dans le cadre du dispositif Girardin en 2018, tant en ce qui concerne le montant de l'investissement ouvrant droit à réduction d'impôt (applicable également au dispositif Jego), que le montant du loyer et des ressources à respecter pour le secteur locatif intermédiaire, viennent d'être publiés.

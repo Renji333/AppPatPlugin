@@ -1,0 +1,1 @@
+Un testament authentique ne peut être remis en cause au motif que l'un des témoins est le partenaire de PACS du légataire, ce dernier ne pouvant être considéré comme un allié au sens de la législation.

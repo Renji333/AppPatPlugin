@@ -1,0 +1,1 @@
+Le délai de conservation de 6 ans, conditionnant l'application de l'exonération partielle d'ISF des titres des mandataires sociaux, court à compter de la date à laquelle ils ont commencé à bénéficier de ce régime de faveur.

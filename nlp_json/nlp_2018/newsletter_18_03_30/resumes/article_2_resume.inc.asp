@@ -1,0 +1,1 @@
+Les entrepreneurs ayant dénoncé fin 2016 leur option pour le régime de l'auto-entrepreneur en anticipant l'entrée en vigueur du PAS en 2018, dans l'unique dessein de bénéficier de "l'année blanche", ne peuvent se prévaloir du report de la réforme à 2019 pour revenir rétroactivement sur cette décision.

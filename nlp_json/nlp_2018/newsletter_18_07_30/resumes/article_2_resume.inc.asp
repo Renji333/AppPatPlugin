@@ -1,0 +1,1 @@
+Dans le cadre du dispositif Pinel, le délai de 30&nbsp;mois au cours duquel l’achèvement du logement doit intervenir (VEFA ou construction) peut être prorogé en cas de force majeure (affaissement de terrain, recours administratif contre le permis de construire…).

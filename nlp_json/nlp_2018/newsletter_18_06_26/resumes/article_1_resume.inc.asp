@@ -1,0 +1,1 @@
+Le texte du projet de loi PACTE a été présenté en Conseil des ministres le 18&nbsp;juin dernier. Il prévoit plusieurs mesures touchant notamment l'assurance vie, le PEA-PME, l'épargne retraite et professionnelle, l'actionnariat salarié, destinées à améliorer le développement et le financement des entreprises.

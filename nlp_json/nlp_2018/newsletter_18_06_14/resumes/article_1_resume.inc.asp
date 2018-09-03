@@ -1,0 +1,1 @@
+Contrairement &agrave; ce  qu'elle avait indiqu&eacute; dans un 1er temps, l'administration pr&eacute;cise, &agrave;  l'occasion de la publication de ses commentaires sur l'IFI, que c'est en  principe l'int&eacute;gralit&eacute; du passif aff&eacute;rent &agrave; la r&eacute;sidence principale, et non pas  seulement 70 %, qui est d&eacute;ductible de l'assiette.&nbsp; 

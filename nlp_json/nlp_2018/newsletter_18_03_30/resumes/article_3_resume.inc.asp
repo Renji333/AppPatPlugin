@@ -1,0 +1,1 @@
+Le Premier ministre a annoncé le 20&nbsp;mars dernier qu'un geste allait être fait en faveur des retraités "les plus lésés" par la hausse de la CSG. La mesure envisagée ne concernerait toutefois que 100&nbsp;000&nbsp;ménages.

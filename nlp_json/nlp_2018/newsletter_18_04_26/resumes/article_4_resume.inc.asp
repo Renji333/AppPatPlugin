@@ -1,0 +1,1 @@
+Dans un rapport remis le 18&nbsp;avril dernier, consacré à l'analyse de la politique de soutien aux énergies renouvelables, la Cour des comptes préconise un recentrage du crédit d'impôt transition énergétique (CITE).

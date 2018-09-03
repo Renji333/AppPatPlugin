@@ -1,0 +1,1 @@
+Assurance vie - Dispense de certificat de non-imposition pour le conjoint (ou partenaire) survivant

@@ -1,0 +1,3 @@
+>&nbsp;L&rsquo;administration fiscale a publi&eacute; les bar&egrave;mes  d'&eacute;valuation forfaitaire des <a target="_blank"  href="http://bofip.impots.gouv.fr/bofip/2185-PGP.html?identifiant=BOI--20180124" class="lien_texte">frais kilom&eacute;triques</a> applicables en 2018 (revenus&nbsp;2017). Ils restent inchang&eacute;s depuis l'imposition des revenus&nbsp;2014.<br>
+
+>&nbsp;Le seuil d'application de la <a target="_blank"  href="http://bofip.impots.gouv.fr/bofip/9396-PGP.html?identifiant=BOI-RFPI-CTRL-10-20180126" class="lien_texte">taxe sur les  loyers excessifs</a> des logements de petites surfaces (taxe Apparu) est relev&eacute; &agrave; 41,95&nbsp;&euro;&nbsp;/&nbsp;m2 (loyer mensuel brut).

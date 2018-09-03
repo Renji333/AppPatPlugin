@@ -1,0 +1,1 @@
+L'administration fiscale a publié les barèmes d'évaluation forfaitaire des frais de carburant applicables, au titre de l'imposition des revenus de&nbsp;2017, aux automobiles et aux deux-roues. 

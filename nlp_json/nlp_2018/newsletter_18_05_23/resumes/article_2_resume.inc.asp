@@ -1,0 +1,1 @@
+Dans le prolongement de la mesure d'exonération de taxe d'habitation issue de la loi de finances pour 2018, un rapport, remis au gouvernement le 9&nbsp;mai dernier, propose plusieurs pistes de réforme de la fiscalité locale qui devrait être mise en place d'ici la fin du quinquennat.

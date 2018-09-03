@@ -1,0 +1,1 @@
+Saisi d&rsquo;une question portant sur le r&eacute;gime  d&eacute;rogatoire applicable aux partages successoraux, et notamment sur l&rsquo;absence de  prise en compte de la soulte vers&eacute;e par l&rsquo;attributaire lors de la revente du  bien, le Conseil Constitutionnel a d&eacute;clar&eacute; le dispositif conforme &agrave; la  constitution.

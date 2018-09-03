@@ -1,0 +1,1 @@
+Transmission - Testament authentique : le partenaire de PACS du l&eacute;gataire admis comme t&eacute;moin  

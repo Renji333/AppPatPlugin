@@ -1,0 +1,1 @@
+Comme nous vous l'avions annoncé le mois dernier, le décret relevant les taux de la cotisation maladie des non-résidents n'est plus applicable. Un nouveau décret restaure les taux antérieurs.

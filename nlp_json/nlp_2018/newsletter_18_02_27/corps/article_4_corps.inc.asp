@@ -1,0 +1,16 @@
+Face &agrave; la grogne qu'avait suscit&eacute;e  la hausse du taux de la CSG de 1,7&nbsp;point, le gouvernement avait inscrit dans la  loi un ensemble de mesures &agrave; caract&egrave;re social qui devait se traduire par un  gain de pouvoir d'achat (notamment pour les salari&eacute;s) et, a minima, par une  compensation pure et simple de l'augmentation de la contribution. Aujourd'hui,  alors que les textes d'application ont pour la plupart &eacute;t&eacute; publi&eacute;s et sont  d'ores et d&eacute;j&agrave; entr&eacute;s en vigueur, le <strong>gouvernement  doit faire</strong> <strong>machine arri&egrave;re</strong> sur l'un  d'eux qui &eacute;tait presque pass&eacute; inaper&ccedil;u, celui relatif aux <strong>personnes non-r&eacute;sidentes fiscales</strong>.
+<br>
+<br>
+Fin d&eacute;cembre&nbsp;2017, il avait en  effet publi&eacute; un d&eacute;cret dont l'objet &eacute;tait de <strong>r&eacute;percuter la hausse du taux de la CSG </strong>sur les non-r&eacute;sidents,  lesquels ne sont, rappelons-le, pas soumis aux pr&eacute;l&egrave;vements sociaux sur leurs  revenus d'activit&eacute; et de remplacement. Le texte relevait<strong> </strong>alors les <strong>taux de la cotisation  d'assurance maladie</strong> dont ils sont, en revanche, redevables en raison de  leur affiliation &agrave; un r&eacute;gime obligatoire d'assurance maladie en France. Sauf  qu'&agrave; l'inverse des r&eacute;sidents, il n'&eacute;tait pas pr&eacute;vu qu'ils b&eacute;n&eacute;ficient, dans le  m&ecirc;me temps, d'une <strong>mesure de compensation</strong>.  De surcro&icirc;t, aucun am&eacute;nagement n'avait &eacute;t&eacute; envisag&eacute; pour les <strong>petits retrait&eacute;s</strong>, pourtant exclus de la  hausse de CSG lorsqu'ils r&eacute;sident en France.
+<br>
+<br>
+Estimant que le texte <strong>ne garantissait pas pleinement l'&eacute;quit&eacute;  entre les Fran&ccedil;ais r&eacute;sidant &agrave; l'&eacute;tranger et ceux r&eacute;sidant en France</strong> au  regard des mesures prises en faveur du pouvoir d'achat, le ministre de l'Action  et des Comptes publics, a demand&eacute;, ce 13&nbsp;f&eacute;vrier, au Premier  ministre, la <strong>suspension  du d&eacute;cret</strong> en cause. Il a confi&eacute; &agrave; une d&eacute;put&eacute;e  en charge d'&eacute;tudier l'&eacute;volution du r&eacute;gime des pr&eacute;l&egrave;vements obligatoires  applicable aux non-r&eacute;sidents, la mission de r&eacute;fl&eacute;chir &agrave; une solution  garantissant l'&eacute;quit&eacute;.
+<br>
+<br>
+	<em><strong>Sources </strong>: <br>
+	>&nbsp;<a href="javascript:var w=window.open('https://minefi.hosting.augure.com/Augure_Minefi/r/ContenuEnLigne/Download?id=4CD6AA71-3D92-42CE-AB2A-AAB817786A99&filename=169.pdf','','left=220, top=200, height=620, width=980,toolbar=0,location=0,directories=1,status=0,menubar=1,scrollbars=1,resizable=1,copyhistory=0' );" class="lien_intro_souligne_NONGRAS">Comm. min. Action et Comptes publics, 12 févr. 2018</a><br>
+	>&nbsp;<a href="javascript:var w=window.open('https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000036342577','','left=220, top=200, height=620, width=980,toolbar=0,location=0,directories=1,status=0,menubar=1,scrollbars=1,resizable=1,copyhistory=0' );" class="lien_intro_souligne_NONGRAS">Décr. n° 2017-1895, 30 déc. 2017, JO 31 déc.</a><br>
+	</em>
+	<br>
+	<br>
+

@@ -1,0 +1,1 @@
+Les dispositions prévues par la directive sur la distribution d'assurances (DDA) viennent d'être transposées en droit français par une ordonnance du 16&nbsp;mai&nbsp;2018.

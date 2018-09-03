@@ -1,0 +1,1 @@
+Les plus-values sur bitcoins réalisées à titre occasionnel par des particuliers sont désormais taxées dans la catégorie des plus-values sur biens meubles, et non plus dans celle des BNC.

@@ -1,0 +1,1 @@
+La généralisation de la complémentaire santé n'a pas eu les effets escomptés quant au marché des contrats collectifs.

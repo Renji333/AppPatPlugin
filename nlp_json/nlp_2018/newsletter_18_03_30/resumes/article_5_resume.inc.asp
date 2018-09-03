@@ -1,0 +1,1 @@
+Les assureurs ont imaginé REVAVIE, un produit d'épargne universel permettant la constitution d'un complément de revenu pour la retraite.

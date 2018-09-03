@@ -1,0 +1,1 @@
+L'administration fiscale vient d'intégrer à sa doctrine la nouvelle dispense accordée au conjoint (ou partenaire) survivant, d'avoir à fournir un certificat attestant de la non-exigibilité des droits de succession pour obtenir le paiement des sommes dues par l'assureur en vertu de contrats d'assurance vie souscrits par le défunt.

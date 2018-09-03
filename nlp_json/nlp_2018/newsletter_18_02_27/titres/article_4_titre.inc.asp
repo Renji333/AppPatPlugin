@@ -1,0 +1,1 @@
+Suspension du d&eacute;cret relatif &agrave; la hausse de cotisation maladie pour les non-r&eacute;sidents 

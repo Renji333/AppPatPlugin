@@ -1,0 +1,1 @@
+La liste des quartiers présentant une concentration élevée d'habitats anciens dégradés faisant l'objet d'une convention pluriannuelle dans le cadre du nouveau programme national de renouvellement urbain (NPNRU), éligibles au dispositif Malraux, vient d'être publiée le 31&nbsp;janvier.

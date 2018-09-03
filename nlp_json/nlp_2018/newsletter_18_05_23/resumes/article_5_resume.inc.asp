@@ -1,0 +1,1 @@
+Alors que le gouvernement entend prochainement s'attaquer à la controversée réforme des retraites, la Direction de la recherche, des études, de l’évaluation et des statistiques (DREES) enrichit le débat public en publiant des données chiffrées sur les retraités pour 2016, population qui ne cesse de croître en France.

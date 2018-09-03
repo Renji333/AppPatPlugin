@@ -1,0 +1,1 @@
+Le barème applicable aux rachats de trimestres réalisés en 2018 est enfin paru : l'opération peut s'avérer moins co&ucirc;teuse qu'en 2017 (les tranches de revenu ayant été revalorisées, pas les tarifs de rachat).

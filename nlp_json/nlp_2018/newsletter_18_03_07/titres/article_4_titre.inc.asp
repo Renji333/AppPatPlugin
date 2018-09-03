@@ -1,0 +1,1 @@
+ISF - Exonération partielle des titres détenus par les mandataires sociaux

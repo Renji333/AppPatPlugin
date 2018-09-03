@@ -1,0 +1,1 @@
+Les 1ères&nbsp;informations concernant la nouvelle méthode de calcul du taux du livret A ont été dévoilées dans un communiqué de presse du 19&nbsp;avril dernier. Cette formule devrait entrer en vigueur le 1er&nbsp;février&nbsp;2020.

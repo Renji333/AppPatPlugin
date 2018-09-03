@@ -1,0 +1,1 @@
+Après avoir dressé un bilan de l’ensemble des prélèvements fiscaux et sociaux pesant sur le capital des ménages, dont le niveau en France est l'un des plus élevés au sein de l'UE, le Conseil des prélèvements obligatoires préconise différentes pistes afin de corriger les défauts du système actuel.

@@ -1,0 +1,1 @@
+Plus-value sur bitcoins - Le Conseil d&rsquo;Etat all&egrave;ge la taxation pour les vendeurs occasionnels

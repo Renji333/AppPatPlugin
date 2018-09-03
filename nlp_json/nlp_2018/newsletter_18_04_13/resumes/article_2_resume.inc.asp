@@ -1,0 +1,1 @@
+Les dettes afférentes à la résidence principale ne sont admises au passif de l'IFI que dans la proportion de la valeur imposable dudit bien, c'est-à-dire à hauteur de 70&nbsp;% -seulement- du montant restant dû au 1er janvier de l'année d'imposition.

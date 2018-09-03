@@ -1,0 +1,1 @@
+L'assurance complémentaire santé n'est pas épargnée par la vague de réformes initiées par l'actuel gouvernement. A partir de 2020, les complémentaires santé auraient l'obligation de proposer un panier de soins sans reste à charge dans les domaines de l'optique, de l'audiologie et du dentaire.

@@ -1,0 +1,1 @@
+Retour sur l’évolution des régimes micro-BIC et micro-BNC suite à l’actualisation de sa doctrine par l’administration fiscale.

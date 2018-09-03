@@ -1,0 +1,1 @@
+Les débats sur un produit unique d'épargne retraite individuelle se jouent également au niveau de l'Europe. Le Conseil de l'Union vient de valider le projet de la Commission européenne visant à instaurer un cadre paneuropéen pour les personnes souhaitant épargner pour leur retraite.

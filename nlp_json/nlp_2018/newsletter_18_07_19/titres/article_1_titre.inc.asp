@@ -1,0 +1,1 @@
+Bilan annuel de la DGFiP pour 2017 - Collecte en baisse pour le contr&ocirc;le et en hausse pour les donations et l'IS

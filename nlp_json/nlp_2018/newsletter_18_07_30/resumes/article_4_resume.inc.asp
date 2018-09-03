@@ -1,0 +1,1 @@
+Un acte par lequel les partenaires d'un PACS s'engagent mutuellement à se léguer l'ensemble de leurs biens est dépourvu d'effet. Cette règle ne porte atteinte ni au droit à la vie privée et familiale ni au droit de propriété garantis par la CESDH selon la Cour de cassation.

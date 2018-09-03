@@ -1,0 +1,1 @@
+Intégrant dans sa doctrine l'extension par la loi de finances pour 2018 du crédit d’impôt en faveur de l’aide aux personnes aux dépenses permettant l’adaptation des logements à la perte d'autonomie ou au handicap, l’administration apporte quelques précisions.
