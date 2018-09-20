@@ -27,8 +27,13 @@ class SyncLink {
 
             foreach ($results as $result) {
 
+                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, 'http://www.patritheque.fr/../../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
+                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, 'http://www.patritheque.fr/../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
                 $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, 'http://www.patritheque.fr/".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
                 $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '../../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
+                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
+                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '/".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
+                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
 
                 $wpdb->delete( "{$wpdb->prefix}titles_and_links" , array( 'idPost' => $result->idPost ) );
 

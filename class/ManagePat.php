@@ -33,7 +33,7 @@ class ManagePat
         global $wpdb;
         $key = htmlspecialchars($key);
         $wpdb->delete("{$wpdb->prefix}tocs", array('aides' => $key ));
-        $wpdb->insert("{$wpdb->prefix}tocs", array('aides' => $key,'content' => $toc));
+        $wpdb->insert("{$wpdb->prefix}tocs", array('aides' => $key, 'content' => $toc));
     }
 
     public function importImgs($dir,$e,$key){

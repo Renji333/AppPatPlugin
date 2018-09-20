@@ -23,27 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ManagePat.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ManagePat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="318" column="13" lean-forward="true" selection-start-line="318" selection-start-column="13" selection-end-line="318" selection-end-column="13" />
+            <state relative-caret-position="-1955">
+              <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
               <folding>
-                <marker date="1537443852533" expanded="true" signature="4085:4222" ph="SELECT idPos... $" />
+                <marker date="1537454576667" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SyncLink.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SyncLink.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="547">
+              <caret line="35" column="170" lean-forward="false" selection-start-line="35" selection-start-column="170" selection-end-line="35" selection-end-column="170" />
               <folding>
-                <marker date="1537446719161" expanded="true" signature="735:845" ph="SELECT a.*, $" />
-                <marker date="1537446719161" expanded="true" signature="925:1087" ph="UPDATE $... " />
-                <marker date="1537446719161" expanded="true" signature="1122:1264" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="735:845" ph="SELECT a.*, $" />
+                <marker date="1537455325087" expanded="true" signature="925:1022" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="925:1093" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="1128:1293" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="1328:1490" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="1525:1667" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="1702:1841" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="1876:2013" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="2048:2184" ph="UPDATE $... " />
+                <marker date="1537455325087" expanded="true" signature="2119:2184" ph="UPDATE $... " />
               </folding>
             </state>
           </provider>
@@ -60,6 +67,7 @@
       <find>$pat</find>
       <find>`</find>
       <find>idPostForLink</find>
+      <find>isf_monaco</find>
     </findStrings>
     <replaceStrings>
       <replace>_&quot;,</replace>
@@ -186,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../_PLUGIN_AppPatPlugin_VERSION/AppPatPlugin_nlp_to_delete/class/SyncPatLink.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/ManagePat.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -254,18 +262,18 @@
       <workItem from="1537269661654" duration="6213000" />
       <workItem from="1537354392095" duration="7808000" />
       <workItem from="1537428967722" duration="8066000" />
-      <workItem from="1537440764743" duration="4190000" />
+      <workItem from="1537440764743" duration="5826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133645000" />
+    <option name="totallyTimeSpent" value="135281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12100213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12100213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -298,9 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class/pat.php" />
-    <entry file="file://$PROJECT_DIR$/class/imgPat.php" />
-    <entry file="file://$PROJECT_DIR$/aides/integrale/dc.html" />
     <entry file="file://$PROJECT_DIR$/aides/integrale/toc.txt" />
     <entry file="file://$PROJECT_DIR$/class/SyncTocLink.php" />
     <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/ajax/getLinks.php">
@@ -482,6 +487,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="164" column="28" lean-forward="true" selection-start-line="164" selection-start-column="28" selection-end-line="188" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -489,6 +495,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,24 +550,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
+    <entry file="file://$PROJECT_DIR$/../../../../NewToc/ijn/07_Livrable/master/patritec.hhc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="318" column="13" lean-forward="true" selection-start-line="318" selection-start-column="13" selection-end-line="318" selection-end-column="13" />
+        <state relative-caret-position="282">
+          <caret line="3610" column="81" lean-forward="false" selection-start-line="3610" selection-start-column="81" selection-end-line="3610" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/ManagePat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3428">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1537443852533" expanded="true" signature="4085:4222" ph="SELECT idPos... $" />
+            <marker date="1537357041000" expanded="true" signature="4085:4222" ph="SELECT idPos... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/SyncLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="170" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="38" selection-end-column="170" />
+          <folding>
+            <marker date="1537357561000" expanded="true" signature="718:882" ph="UPDATE `${{$wpdb-&gt;prefix}}post_to_nlp_links`... " />
+            <marker date="1537357561000" expanded="true" signature="912:1076" ph="UPDATE `${{$wpdb-&gt;prefix}}post_to_pat_links`... " />
+            <marker date="1537357561000" expanded="true" signature="1124:1234" ph="SELECT a.*, $" />
+            <marker date="1537357561000" expanded="true" signature="1314:1482" ph="UPDATE $... " />
+            <marker date="1537357561000" expanded="true" signature="1517:1682" ph="UPDATE $... " />
+            <marker date="1537357561000" expanded="true" signature="1717:1879" ph="UPDATE $... " />
+            <marker date="1537357561000" expanded="true" signature="1914:2056" ph="UPDATE $... " />
+            <marker date="1537357561000" expanded="true" signature="2091:2230" ph="UPDATE $... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="547">
+          <caret line="35" column="170" lean-forward="false" selection-start-line="35" selection-start-column="170" selection-end-line="35" selection-end-column="170" />
           <folding>
-            <marker date="1537446719161" expanded="true" signature="735:845" ph="SELECT a.*, $" />
-            <marker date="1537446719161" expanded="true" signature="925:1087" ph="UPDATE $... " />
-            <marker date="1537446719161" expanded="true" signature="1122:1264" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="735:845" ph="SELECT a.*, $" />
+            <marker date="1537455325087" expanded="true" signature="925:1022" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="925:1093" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="1128:1293" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="1328:1490" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="1525:1667" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="1702:1841" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="1876:2013" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="2048:2184" ph="UPDATE $... " />
+            <marker date="1537455325087" expanded="true" signature="2119:2184" ph="UPDATE $... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955">
+          <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+          <folding>
+            <marker date="1537454576667" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
           </folding>
         </state>
       </provider>
