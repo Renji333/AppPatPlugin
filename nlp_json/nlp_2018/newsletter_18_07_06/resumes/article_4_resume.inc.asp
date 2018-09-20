@@ -1,1 +1,0 @@
-Les modalités d'application de la période expérimentale de modulation mensuelle des cotisations dues par les travailleurs indépendants en fonction des revenus effectivement perçus le mois précédent viennent d'être précisées par décret.

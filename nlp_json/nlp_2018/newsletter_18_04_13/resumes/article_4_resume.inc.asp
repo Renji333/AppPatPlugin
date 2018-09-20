@@ -1,1 +1,0 @@
-Le gouvernement a présenté un nouveau projet de loi visant, notamment, à améliorer l'accès au logement.

@@ -1,1 +1,0 @@
-Le domicile fiscal d'un contribuable ne peut être fixé au regard de son lieu de séjour principal que s'il ne dispose pas d'un foyer, c’est-à-dire d'un lieu où il habite normalement et a le centre de sa vie personnelle.

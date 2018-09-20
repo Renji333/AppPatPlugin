@@ -1,1 +1,0 @@
-Les Sages ont confirmé la conformité à la Constitution du droit de résiliation annuelle des assurances emprunteur dans le cadre de prêts immobiliers.

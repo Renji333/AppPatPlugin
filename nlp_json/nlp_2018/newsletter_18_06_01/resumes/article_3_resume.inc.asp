@@ -1,1 +1,0 @@
-Un décret précise les obligations respectives des redevables IFI et des sociétés et organismes quant à la détermination de la fraction de la valeur des parts et des actions de sociétés ou d'organismes représentative de droits immobiliers.

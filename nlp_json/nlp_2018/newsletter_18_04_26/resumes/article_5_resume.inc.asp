@@ -1,1 +1,0 @@
-Le gouvernement a présenté un projet de loi proposant d'apporter des aménagements en matière de divorce et de simplifier le régime de protection juridique des personnes vulnérables sur certains points.

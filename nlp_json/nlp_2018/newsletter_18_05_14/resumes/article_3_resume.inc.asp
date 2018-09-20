@@ -1,1 +1,0 @@
-L'absence de prise en compte, pour le calcul de la plus-value de cession de titres, de la soulte versée par l'attributaire des titres lors du partage des biens dans le cadre d'une indivision successorale, pourrait être déclarée inconstitutionnelle.

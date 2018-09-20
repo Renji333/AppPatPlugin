@@ -1,1 +1,0 @@
-PACTE - Pr&eacute;sentation du texte de loi 

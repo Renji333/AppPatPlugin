@@ -1,1 +1,0 @@
-La DGFiP a décidé d’octroyer un délai supplémentaire aux contribuables redevables de l’impôt sur la fortune immobilière (IFI) pour déposer leurs déclarations IFI et IR. La date limite de dépôt (déclaration dématérialisée ou papier) est désormais fixée au 15&nbsp;juin 2018.

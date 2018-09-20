@@ -1,1 +1,0 @@
-Le cr&eacute;dit d'imp&ocirc;t en faveur de  l'aide &agrave; la personne a &eacute;t&eacute; prorog&eacute; et am&eacute;nag&eacute; par la loi de finances pour 2018.  Un arr&ecirc;t&eacute;, publi&eacute; au Journal officiel le 31 d&eacute;cembre 2017, pr&eacute;cise la liste des  &eacute;quipements &eacute;ligibles &agrave; compter de 2018.

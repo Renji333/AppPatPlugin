@@ -1,1 +1,0 @@
-Les prélèvements obligatoires sur le capital des ménages - Un poids important, des dispositifs à réformer

@@ -1,1 +1,0 @@
-Une nouvelle convention vient d'être ratifiée entre la France et le Luxembourg concernant l'impôt sur le revenu et l'impôt sur la fortune. Il ne s'agit pas d'une légère adaptation de la précédente mais d'une véritable révolution.

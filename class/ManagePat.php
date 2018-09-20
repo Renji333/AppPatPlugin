@@ -13,7 +13,7 @@ class ManagePat
 
     public function add_admin_menu()
     {
-        add_menu_page(  'Gestion des aides patrithèque', 'Gestion des aides patrithèque', 'manage_options','aides',  array($this, 'display_home_link'), 'dashicons-book-alt');
+        add_menu_page(  'Gestion des aides patrithèque', 'Gestion des aides patrithèque', 'manage_options', 'aides',  array($this, 'display_home_link'), 'dashicons-category');
     }
 
     public function display_home_link()
@@ -23,12 +23,9 @@ class ManagePat
         include_once plugin_dir_path( __FILE__ ).'../views/ManagePat.php';
     }
 
-    public function insertTitleNlpLinks($link,$id){
+    public function insertTitleAndLinks($link,$id){
         global $wpdb;
         $id = htmlspecialchars($id);
-        $link = str_replace('archive/','',htmlspecialchars($link));
-        $link = str_replace('corps/','newsletter_',htmlspecialchars($link));
-        $link = str_replace('_corps.inc','',htmlspecialchars($link));
         $wpdb->insert("{$wpdb->prefix}titles_and_links", array('file' => $link,'idPost' => $id));
     }
 
@@ -90,10 +87,12 @@ class ManagePat
 
                     }else{
                         echo '<div class="alert alert-warning" role="alert">'.$result.'</div>';
+                        $wpdb->insert("{$wpdb->prefix}logs", array('file' => $result));
                     }
 
                 }else{
                     echo '<div class="alert alert-danger" role="alert">'.$result.'</div>';
+                    $wpdb->insert("{$wpdb->prefix}logs", array('file' => $result));
                 }
 
             }
@@ -108,7 +107,7 @@ class ManagePat
 
             global $wpdb;
 
-            if (isset($_REQUEST["action"]) && isset($_REQUEST["action"]) == 'delete' && isset($_REQUEST["key"])){
+            if (isset($_REQUEST["action"]) == 'delete' && isset($_REQUEST["action"]) && isset($_REQUEST["key"])){
 
                 $results = $wpdb->get_results("SELECT idPost FROM {$wpdb->prefix}imported_files as a, {$wpdb->prefix}posts as b WHERE a.idPost = b.id AND aides = '".$_REQUEST['key']."'");
 
@@ -116,14 +115,15 @@ class ManagePat
 
                     wp_delete_post( $result->idPost, true );
                     $wpdb->delete("{$wpdb->prefix}imported_files", array('idPost' => $result->idPost ));
+                    $wpdb->delete("{$wpdb->prefix}titles_and_links", array('idPost' => $result->idPost ));
+                    $wpdb->delete("{$wpdb->prefix}post_to_pat_links", array('idPost' => $result->idPost ));
+                    $wpdb->delete("{$wpdb->prefix}post_to_pat_links", array('idPostInLink' => $result->idPost ));
 
                 }
 
             }
 
             if (isset($_REQUEST["action"]) && isset($_REQUEST["action"]) == 'update' && isset($_REQUEST["key"]) && isset($_REQUEST["v"]))  {
-
-
 
                 $dir =  plugin_dir_path( __FILE__ ).'../aides/'.$_REQUEST["key"];
 
@@ -144,8 +144,6 @@ class ManagePat
                         $zip->close();
                         unlink($dir."".$name);
                     }
-
-                    $wpdb->delete("{$wpdb->prefix}imported_files" , array('aides' => $_REQUEST["key"] ));
 
                     $this->importImgs($dir,'images',$_REQUEST["key"]);
                     $this->importImgs($dir,'schemas',$_REQUEST["key"]);
@@ -178,17 +176,53 @@ class ManagePat
                             $corps = preg_replace('/src="..\/images\//','src="'.$UploadPath['url'].'/',$corps);
                             $corps = preg_replace('/src="..\/schemas\//','src="'.$UploadPath['url'].'/',$corps);
 
+                            //Add NLP catégorie
                             $pat = term_exists( 'PAT', 'category' );
                             if (is_wp_error($pat) || $pat == NULL ) {
                                 $pat = wp_insert_term('PAT', 'category', [ 'slug' => 'PAT']);
                             }
                             array_push($CatId, $pat['term_id']);
 
+                            //Add Aides catégorie Like Integrale, Essentiels
                             $aideCat = term_exists( $_REQUEST["key"], 'category' );
                             if (is_wp_error($aideCat) || $aideCat == NULL ) {
                                 $aideCat = wp_insert_term($_REQUEST["key"], 'category', ['parent' => $pat['term_id']]);
                             }
                             array_push($CatId, $aideCat['term_id']);
+
+
+
+                            // Add Catégorie based on .htm préfixe
+                            include_once plugin_dir_path( __FILE__ ).'../tools/PatArrayCat.php';
+                            $prefixe = explode("_", $result)[0].'_';
+
+                            $i = null;
+                            $themes = array('Fiscalité', 'Placements', 'Immobilier', 'Retraite et prévoyance', 'Famille et transmission', 'Dirigeant');
+                            $themeSlug = array('fiscalite', 'placements', 'immobilier', 'retraite', 'famille', 'dirigeants');
+
+                            if (in_array($prefixe, $fiscalite)) {
+                                $i = 0;
+                            }   else if (in_array($prefixe, $epargne_placements)) {
+                                $i = 1;
+                            }   else if (in_array($prefixe, $immobilier)) {
+                                $i = 2;
+                            }   else if (in_array($prefixe, $retraite_prevoyance)) {
+                                $i = 3;
+                            }   else if (in_array($prefixe, $famille_transmission)) {
+                                $i = 4;
+                            }   else if (in_array($prefixe, $dirigeant)) {
+                                $i = 5;
+                            }
+
+                            if(is_int($i)){
+
+                                $patCat = term_exists($themes[$i], 'category' );
+                                if (is_wp_error($patCat) || $patCat == NULL ) {
+                                    $patCat = wp_insert_term($themes[$i], 'category', [ 'slug' => $themeSlug[$i], 'parent' => $aideCat['term_id'] ]);
+                                }
+                                array_push($CatId, $patCat['term_id']);
+
+                            }
 
                             $new_post = array(
                                 'post_title' => html_entity_decode($title),
@@ -200,7 +234,7 @@ class ManagePat
 
                             $postsId = wp_insert_post( $new_post );
 
-                            $this->insertTitleNlpLinks($result,$postsId);
+                            $this->insertTitleAndLinks($result,$postsId);
 
                             $wpdb->insert("{$wpdb->prefix}imported_files", array('aides' => $_REQUEST['key'],'idPost' => $postsId));
 
@@ -251,7 +285,7 @@ function utf8_fopen_read($fileName) {
 
 function createToc($xml,$file){
 
-    $panel = array("fiscalite","famille","epargne","retraite","credits","dirigeants","dossiers","outils");
+    $panel = array("fiscalite","epargne","immobilier","famille","retraite","dirigeants","outils");
     $i = 0;
 
     foreach ($xml as $key) {
@@ -290,7 +324,7 @@ function writeFolder($e,$file){
 
     }else{
         $link = $e["link"];
-        writeInTocFile($file, "<li><a href='$link'>$name</a></li>");
+        writeInTocFile($file, '<li><a href="'.$link.'">'.$name.'</a></li>');
     }
 
 }

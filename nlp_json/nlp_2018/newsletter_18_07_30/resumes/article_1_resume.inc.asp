@@ -1,1 +1,0 @@
-L'administration fiscale a publié, au début du mois de juillet, ses 1ers commentaires relatifs à l'année de transition, et plus précisément, sur les modalités de calcul du CIMR et sur les règles dérogatoires de déduction des charges en matière de revenus fonciers, de monuments historiques et d'épargne retraite.

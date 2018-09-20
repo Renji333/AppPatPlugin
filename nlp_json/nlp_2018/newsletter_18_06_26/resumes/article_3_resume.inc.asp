@@ -1,1 +1,0 @@
-Prenant position contre l’administration, le Conseil d’Etat précise que la durée minimale d’activité conditionnant l'exonération des cessions de branches complètes d’activité ne s’apprécie pas à la date de création ou d’acquisition de la branche, mais à compter du début de l’exploitation.

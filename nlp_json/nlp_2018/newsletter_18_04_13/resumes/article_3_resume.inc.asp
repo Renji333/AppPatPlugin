@@ -1,1 +1,0 @@
-La Cour des comptes épingle le dispositif Pinel ainsi que tous les autres dispositifs d'investissements locatifs défiscalisants qu'elle juge trop coûteux et inefficaces. Elle invite le gouvernement à les supprimer de façon progressive et à favoriser le recours aux investisseurs institutionnels.

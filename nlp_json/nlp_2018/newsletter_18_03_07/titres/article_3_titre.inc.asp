@@ -1,1 +1,0 @@
-Plus-values immobilières - Exonération de la résidence principale même brièvement occupée

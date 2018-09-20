@@ -1,1 +1,0 @@
-Les plafonds de ressources et de loyer applicables  dans le cadre des dispositifs Duflot/Pinel, Scellier, Cosse ancien, Borloo, Robien  et Besson, pour les baux conclus, reconduits ou renouvel&eacute;s en 2018, viennent  d'&ecirc;tre publi&eacute;s.

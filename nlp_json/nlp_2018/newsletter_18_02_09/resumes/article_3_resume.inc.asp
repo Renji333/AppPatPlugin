@@ -1,1 +1,0 @@
-La vente d'un lot issu de la division de l'ancienne résidence principale d'un contribuable ne peut bénéficier d'une exonération de plus-value immobilière dès lors que ce lot était vacant au moment de la cession.

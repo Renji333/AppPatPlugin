@@ -1,1 +1,0 @@
-Une parcelle de terrain non construite ne peut pas être considérée comme dépendance immédiate et nécessaire de la résidence principale si elle dispose d'un accès distinct et indépendant et est séparée physiquement du terrain d'assise de la résidence principale par un muret et des portiques.

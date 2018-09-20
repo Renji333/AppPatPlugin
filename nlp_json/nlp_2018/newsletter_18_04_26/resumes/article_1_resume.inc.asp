@@ -1,1 +1,0 @@
-L'agenda de la réforme des retraites est désormais fixé ! Au programme&nbsp;: échanges avec les partenaires sociaux, consultation citoyenne et ateliers participatifs afin d'aboutir, d'ici fin&nbsp;2018 début&nbsp;2019, à la définition des orientations de la réforme.

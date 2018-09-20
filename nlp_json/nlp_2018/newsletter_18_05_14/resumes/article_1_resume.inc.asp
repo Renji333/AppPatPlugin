@@ -1,1 +1,0 @@
-Un panel de mesures visant à moderniser l'épargne retraite (généralisation des sorties en capital, harmonisation des motifs de retraits, portabilité, pour ne citer qu’elles) ont d’ores et déjà été présentées devant l’Association française d'épargne et de retraite (AFER) en attendant les détails définitifs du projet de loi PACTE.

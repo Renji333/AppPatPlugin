@@ -1,1 +1,0 @@
-Le Haut-commissaire a lancé hier, jeudi 31&nbsp;mai, la consultation publique en ligne autour de la réforme des retraites. Elle  devrait permettre aux Français de faire part de leurs attentes sur ce que devrait être le système de retraite de demain.

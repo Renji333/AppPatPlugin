@@ -1,1 +1,0 @@
-Feu vert pour le produit europ&eacute;en d'&eacute;pargne retraite individuelle

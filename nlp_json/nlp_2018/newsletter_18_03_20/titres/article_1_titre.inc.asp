@@ -1,1 +1,0 @@
-Point de d&eacute;part du d&eacute;lai de 5&nbsp;ans pour le calcul du quotient familial des veufs ayant &eacute;lev&eacute; seuls un enfant 

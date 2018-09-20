@@ -1,1 +1,0 @@
-Cr&eacute;dit d&rsquo;imp&ocirc;t en faveur de l'aide &agrave; la personne - Equipements  &eacute;ligibles &agrave; compter de 2018

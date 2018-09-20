@@ -1,1 +1,0 @@
-L'administration fiscale vient de publier ses commentaires sur le prélèvement à la source de l'IR qui s'appliquera à compter du 1er&nbsp;janvier&nbsp;2019. Les mesures concernant l'année blanche (CIMR notamment) n'ont toutefois pas été traitées et feront l'objet de précisions ultérieures.

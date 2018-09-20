@@ -1,1 +1,0 @@
-Le répertoire de gestion des carrières unique (RGCU), outil inter-régime utile pour l'établissement des droits à retraite des Français, va enfin voir le jour. Un décret, paru ce 3 mars, autorise, en effet, la création du traitement de données nécessaire à sa mise en œuvre.

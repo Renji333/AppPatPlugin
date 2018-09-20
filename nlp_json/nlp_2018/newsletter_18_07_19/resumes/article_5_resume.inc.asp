@@ -1,1 +1,0 @@
-La grille de référence, listant les antécédents médicaux pour lesquels aucune surprime ne peut s'appliquer ainsi que ceux pouvant faire l'objet d'une majoration de prime limitée, a été complétée pour prendre en compte les dernières évolutions médicales.

@@ -1,1 +1,0 @@
-Les professionnels de l'assurance ont finalement obtenu un délai supplémentaire, jusqu'au 1er&nbsp;octobre&nbsp;2018, pour mettre en œuvre les dispositions prévues par la directive sur la distribution d'assurances (DDA).

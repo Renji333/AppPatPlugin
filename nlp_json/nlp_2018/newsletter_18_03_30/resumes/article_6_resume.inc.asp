@@ -1,4 +1,0 @@
->&nbsp;La base mensuelle des allocations familiales (BMAF) qui sert de référence pour le calcul des prestations familiales est <a target="_blank" href="http://circulaire.legifrance.gouv.fr/pdf/2018/03/cir_43190.pdf" class="lien_texte">revalorisée de 1&nbsp;%</a> à partir du 1er&nbsp;avril&nbsp;2018. Elle est ainsi portée de 407,84&nbsp;€ à 411,92&nbsp;€.<br>
-Vous pouvez retrouver dans la rubrique <a target="_blank" href="http://www.patritheque.fr/chiffres-social.asp" class="lien_texte">Chiffres utiles</a> les différentes prestations revalorisées en conséquence.<br>
-
->&nbsp;D'autres prestations, cette fois versées au titre de l'invalidité, de la vieillesse et du décès ont également fait l'objet d'une <a target="_blank" href="http://circulaires.legifrance.gouv.fr/pdf/2018/03/cir_43207.pdf" class="lien_texte">augmentation de 1&nbsp;%</a> à partir de cette date.

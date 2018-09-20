@@ -1,1 +1,0 @@
-Directive DDA - Les nouvelles obligations du secteur de l'assurance pr&eacute;cis&eacute;es

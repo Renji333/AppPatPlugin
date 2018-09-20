@@ -1,1 +1,0 @@
-Le ministre de l'Action et des comptes publics a lancé, ce mardi 10 avril, la campagne&nbsp;2018 de la déclaration des revenus, désormais fusionnée avec celle de l'IFI (remplaçant l'ISF), placée sous le double signe de la télédéclaration et du prélèvement à la source de l'IR.

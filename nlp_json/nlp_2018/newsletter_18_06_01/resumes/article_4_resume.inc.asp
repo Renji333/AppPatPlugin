@@ -1,1 +1,0 @@
-Le paiement d’un dividende à un actionnaire peut s’effectuer par la remise d’actifs sociaux et notamment par la remise de biens immobiliers. Cette distribution n’est pas considérée comme une transmission de propriété à titre onéreux et n’est donc pas taxable aux droits de mutation à titre onéreux.

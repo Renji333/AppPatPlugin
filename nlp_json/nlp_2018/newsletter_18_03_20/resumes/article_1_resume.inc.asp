@@ -1,1 +1,0 @@
-Une demi-part supplémentaire est accordée aux personnes veuves ayant élevé seules un enfant pendant 5&nbsp;ans. Le point de départ de ce délai vient d'être précisé : il est décompté uniquement à partir de l'année civile suivant celle du décès du conjoint.

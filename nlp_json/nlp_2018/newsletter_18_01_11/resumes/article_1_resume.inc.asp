@@ -1,1 +1,0 @@
-La loi de finances pour 2018, la 2nde loi  de finances rectificative pour 2017 et la loi de financement de la S&eacute;curit&eacute;  sociale pour 2018 ont &eacute;t&eacute; publi&eacute;es au Journal officiel les 29 et 31 d&eacute;cembre  derniers, apr&egrave;s avoir &eacute;t&eacute; valid&eacute;es, quasiment en l'&eacute;tat, par le Conseil  constitutionnel.

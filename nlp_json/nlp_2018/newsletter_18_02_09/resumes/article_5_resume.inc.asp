@@ -1,1 +1,0 @@
-L'administration fiscale simplifie les modalités d'option pour le régime réel en faveur des entreprises qui se trouvent placées de plein droit au régime des micro-entreprises du fait du relèvement des limites d'application de ce régime.

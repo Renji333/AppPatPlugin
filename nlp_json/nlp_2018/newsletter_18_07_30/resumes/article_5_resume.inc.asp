@@ -1,1 +1,0 @@
-Un décret précise les modalités de mise en place des mesures relatives à lutte contre le défaut d'assurance des véhicules.

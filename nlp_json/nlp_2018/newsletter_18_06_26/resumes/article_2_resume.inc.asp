@@ -1,1 +1,0 @@
-Le Conseil d'Etat a jugé que le fait, pour une société holding, en plus de participer activement à la politique du groupe et au contrôle des filiales à titre principal, d'exercer des activités accessoires, ne fait pas obstacle à ce qu'elle soit qualifiée de holding animatrice.

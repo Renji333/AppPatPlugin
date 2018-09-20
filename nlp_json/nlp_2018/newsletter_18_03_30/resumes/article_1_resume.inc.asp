@@ -1,1 +1,0 @@
-Lors de la clôture du forum "Entreprises en action(s) !" qui s'est déroulé ce 28&nbsp;mars, le ministre de l'Economie et des Finances a présenté les grandes orientations du projet de loi pour la croissance et la transformation des entreprises ("PACTE") en matière de financement, projet qu'il devrait détailler dans les prochaines semaines.

@@ -11,12 +11,12 @@ class SyncPatLink
 
     public function add_admin_menu()
     {
-        add_submenu_page('sync', 'Synchronisation du sommaire', 'Synchronisation du sommaire', 'manage_options', 'syncPat', array($this, 'display_home'));
+        add_menu_page('Synchronisation du sommaire de la Patrithèque', 'Synchronisation du sommaire de la Patrithèque', 'manage_options', 'syncPat', array($this, 'display_home'), 'dashicons-hammer');
     }
 
     public function display_home()
     {
-        echo "<h1>Synchronisation des Liens du sommaire : </h1>";
+        echo "<h1>Synchronisation des Liens du sommaire de la Patrithèque : </h1>";
         include_once plugin_dir_path(__FILE__) . '../views/SyncPatLink.php';
     }
 
@@ -33,6 +33,9 @@ class SyncPatLink
                 $wpdb->query("UPDATE {$wpdb->prefix}tocs SET content = REPLACE(content, 'html\\\\" . $result->file . "', '" . $result->guid . "')");
 
             }
+
+            $wpdb->query("UPDATE `{$wpdb->prefix}post_to_nlp_links` as a SET a.`idPostInLink` = (SELECT b.idPost FROM `{$wpdb->prefix}titles_and_links` as b WHERE a.`file`= b.`file`) WHERE 1");
+            $wpdb->query("UPDATE `{$wpdb->prefix}post_to_pat_links` as a SET a.`idPostInLink` = (SELECT b.idPost FROM `{$wpdb->prefix}titles_and_links` as b WHERE a.`file`= b.`file`) WHERE 1");
 
         }
 

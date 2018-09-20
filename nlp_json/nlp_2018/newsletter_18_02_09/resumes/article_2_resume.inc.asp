@@ -1,1 +1,0 @@
-Les apprentis commençant ou finissant leur apprentissage en cours d'année n'ont plus à effectuer un prorata mensuel pour calculer leur limite d'exonération d'impôt sur le revenu.

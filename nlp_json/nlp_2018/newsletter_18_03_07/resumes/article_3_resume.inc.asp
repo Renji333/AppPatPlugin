@@ -1,1 +1,0 @@
-L'exonération de la plus-value immobilière réalisée lors de la cession de la résidence principale est applicable même si le contribuable n'y a habité que très peu de temps.

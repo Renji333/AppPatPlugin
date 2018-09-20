@@ -22,17 +22,13 @@ class SyncLink {
         if (isset($_GET['actionPLUGIN']) && $_GET['actionPLUGIN'] == 'SyncLink') {
 
             global $wpdb;
+
             $results = $wpdb->get_results("SELECT a.*, b.guid FROM {$wpdb->prefix}titles_and_links as a , {$wpdb->prefix}posts as b WHERE a.idPost = b.id");
 
             foreach ($results as $result) {
 
-                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, 'http://www.patritheque.fr/../../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
-                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, 'http://www.patritheque.fr/../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
                 $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, 'http://www.patritheque.fr/".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
                 $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '../../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
-                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '../".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
-                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '/".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
-                $wpdb->query("UPDATE {$wpdb->prefix}posts SET  post_content = REPLACE(post_content, '".$result->file."', '".$result->guid."') WHERE post_type = 'post' ");
 
                 $wpdb->delete( "{$wpdb->prefix}titles_and_links" , array( 'idPost' => $result->idPost ) );
 

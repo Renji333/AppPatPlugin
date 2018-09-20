@@ -1,1 +1,0 @@
-La loi de  finances pour 2018 a prorog&eacute; le cr&eacute;dit d&rsquo;imp&ocirc;t pour la transition &eacute;nerg&eacute;tique  (CITE) d'une ann&eacute;e et proc&eacute;d&eacute; &agrave; son recentrage. L'arr&ecirc;t&eacute; permettant la mise en  oeuvre de cette mesure est paru au Journal officiel le 31&nbsp;d&eacute;cembre  dernier.

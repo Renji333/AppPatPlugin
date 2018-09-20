@@ -1,1 +1,0 @@
-IFI - R&eacute;sidence principale - L'imputation des dettes est limit&eacute;e 

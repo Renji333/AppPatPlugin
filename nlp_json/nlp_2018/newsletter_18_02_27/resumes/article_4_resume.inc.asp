@@ -1,1 +1,0 @@
-Le décret relevant les taux de la cotisation d'assurance maladie applicables aux non-résidents est remis en cause par le ministre de l'Action et des Comptes publics.

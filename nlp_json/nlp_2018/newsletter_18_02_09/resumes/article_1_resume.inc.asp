@@ -1,1 +1,0 @@
-Les Sages ont invalidé la condition relative à l'inscription au RCS pour qu'un loueur en meublé ait la qualité de professionnel figurant à l'article&nbsp;151&nbsp;septies du CGI, dans sa version en vigueur jusqu'en 2012.

@@ -1,1 +1,0 @@
-Les contrats d'assurance santé complémentaire devraient bientôt évoluer. Dans le cadre de la réforme "100&nbsp;% santé", les organismes complémentaires auraient l'obligation de répondre à des exigences de lisibilité des garanties afin de faciliter la comparaison entre les contrats et donc le choix des assurés.

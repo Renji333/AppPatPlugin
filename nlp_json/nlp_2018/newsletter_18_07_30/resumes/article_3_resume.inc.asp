@@ -1,1 +1,0 @@
-Le Conseil d’Etat annule les commentaires administratifs excluant, avant&nbsp;2018, le maintien du report d’imposition de la plus-value afférente à des titres apportés sous l’empire du dispositif applicable jusqu’en&nbsp;2000 en cas de nouvel apport des titres ouvrant droit à report à raison du dispositif actuel.

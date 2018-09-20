@@ -1,5 +1,0 @@
->&nbsp;Le président de la République a annoncé hier, jeudi&nbsp;12&nbsp;avril, la <strong>suppression du forfait social sur l'intéressement</strong> pour toutes les entreprises de 250&nbsp;salariés au plus, à compter du 1er&nbsp;janvier&nbsp;2019.<br>
-
->&nbsp;Le montant forfaitaire du revenu de solidarité active (RSA) a été <a target="_blank"  href="http://circulaires.legifrance.gouv.fr/pdf/2018/03/cir_43207.pdf" class="lien_texte">revalorisé de 1&nbsp;%</a> depuis le 1er&nbsp;avril&nbsp;2018. Il est ainsi porté de 545,48&nbsp;€ à 550,93&nbsp;€ pour une personne seule sans personne à charge. 
-<br>
-Vous pouvez retrouver dans la rubrique <a target="_blank"  href="http://www.patritheque.fr/chiffres-social.asp" class="lien_texte">Chiffres utiles</a> les différentes prestations revalorisées en conséquence.

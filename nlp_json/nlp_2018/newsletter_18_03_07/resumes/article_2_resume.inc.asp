@@ -1,1 +1,0 @@
-L'AMF a publié en février son 1er baromètre annuel de l'épargne. S'il confirme la préférence des épargnants pour les placements garantis, il montre, pour la 1ère fois, des signes d'un nouvel attrait pour la détention d'actions.

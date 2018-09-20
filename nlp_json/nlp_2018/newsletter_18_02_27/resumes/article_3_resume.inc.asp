@@ -1,1 +1,0 @@
-La direction générale des collectivités locales vient de publier un guide sur les statistiques de la fiscalité locale en 2016 mettant en lumière la part prépondérante et croissante pesant sur les ménages.

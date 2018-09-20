@@ -1,1 +1,0 @@
-L'administration fiscale vient d'intégrer à sa doctrine le nouveau dispositif d'exonération des indemnités de frais des parlementaires applicable depuis&nbsp;2018 (la suppression de la contestée indemnité représentative de frais de mandat ayant été compensée par un nouveau mode de défraiement quasiment équivalent).

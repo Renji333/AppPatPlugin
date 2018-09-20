@@ -1,1 +1,0 @@
-Le taux d'intérêt applicable en cas de paiement différé et/ou fractionné des droits de succession est fixé à 1,50&nbsp;% pour les demandes effectuées en 2018.

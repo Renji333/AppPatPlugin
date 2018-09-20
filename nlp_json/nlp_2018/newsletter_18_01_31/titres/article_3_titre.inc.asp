@@ -1,1 +1,0 @@
-Assurance emprunteur - Validit&eacute; du droit de r&eacute;siliation annuelle 

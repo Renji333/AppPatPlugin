@@ -1,1 +1,0 @@
-La DGFiP vient de publier son rapport annuel pour l'année&nbsp;2017. Pas de grand changement par rapport à 2016 si ce n'est une hausse importante des droits de donation et de l'IS et une diminution des recettes liées au contrôle fiscal. La proportion de foyers imposables à l'IR se stabilise à 43&nbsp;%.
