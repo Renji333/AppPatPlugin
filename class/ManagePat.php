@@ -216,10 +216,12 @@ class ManagePat
 
                             if(is_int($i)){
 
-                                $patCat = term_exists($themes[$i], 'category' );
+                                $patCat = term_exists($themes[$i], 'category', $aideCat['term_id'] );
+
                                 if (is_wp_error($patCat) || $patCat == NULL ) {
                                     $patCat = wp_insert_term($themes[$i], 'category', [ 'slug' => $themeSlug[$i], 'parent' => $aideCat['term_id'] ]);
                                 }
+
                                 array_push($CatId, $patCat['term_id']);
 
                             }
@@ -287,6 +289,7 @@ function createToc($xml,$file){
 
     $panel = array("fiscalite","epargne","immobilier","famille","retraite","dirigeants","outils");
     $i = 0;
+    $_SESSION['pageHtmId'] = 0;
 
     foreach ($xml as $key) {
 
@@ -317,14 +320,17 @@ function writeFolder($e,$file){
         writeInTocFile($file, "<li><span>$name</span><ul>");
 
         foreach ($e->item as $item) {
+
             writeFolder($item,$file);
+
         }
 
         writeInTocFile($file, "</ul></li>");
 
     }else{
         $link = $e["link"];
-        writeInTocFile($file, '<li><a href="'.$link.'">'.$name.'</a></li>');
+        writeInTocFile($file, '<li><a href="'.$link.'" page-htm-id="'.$_SESSION['pageHtmId'].'">'.$name.'</a></li>');
+        $_SESSION['pageHtmId'] = $_SESSION['pageHtmId'] + 1 ;
     }
 
 }

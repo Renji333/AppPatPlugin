@@ -43,6 +43,8 @@ class AppPatPlugin {
         $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}post_to_nlp_links (id INT AUTO_INCREMENT PRIMARY KEY, idPost INT NOT NULL,  idPostInLink INT, title TEXT, file VARCHAR(255));");
         $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}post_to_pat_links (id INT AUTO_INCREMENT PRIMARY KEY, idPost INT NOT NULL,  idPostInLink INT, title TEXT, file VARCHAR(255));");
 
+        $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}posts_views (id INT AUTO_INCREMENT PRIMARY KEY, UID INT NOT NULL, PID INT NOT NULL);");
+
     }
 
     public static function uninstall()
@@ -56,6 +58,8 @@ class AppPatPlugin {
 
         $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}post_to_nlp_links;");
         $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}post_to_pat_links;");
+
+        $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}posts_views;");
 
     }
 
