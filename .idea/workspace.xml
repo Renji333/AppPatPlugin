@@ -26,10 +26,10 @@
       <file leaf-file-name="ManagePat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+            <state relative-caret-position="159">
+              <caret line="179" column="30" lean-forward="false" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
               <folding>
-                <marker date="1539075838622" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
+                <marker date="1540939441540" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
               </folding>
             </state>
           </provider>
@@ -79,7 +79,7 @@
         <option value="$PROJECT_DIR$/views/logs.php" />
         <option value="$PROJECT_DIR$/views/links.php" />
         <option value="$PROJECT_DIR$/js/linkSelect.js" />
-        <option value="$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/class/recups/Nlp.php" />
+        <option value="$PROJECT_DIR$/../patritheque/class/recups/Nlp.php" />
         <option value="$PROJECT_DIR$/nlp.php" />
         <option value="$PROJECT_DIR$/ajax/getLinks.php" />
         <option value="$PROJECT_DIR$/class/links.php" />
@@ -104,7 +104,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
+    <option name="x" value="-57" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -125,7 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,13 +137,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../themes/AppPatTheme" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -218,16 +218,18 @@
       <workItem from="1539003908257" duration="3957000" />
       <workItem from="1539075103628" duration="2160000" />
       <workItem from="1539083610233" duration="767000" />
+      <workItem from="1540921992033" duration="2188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151965000" />
+    <option name="totallyTimeSpent" value="154153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12739871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12846482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -262,13 +264,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/aides/integrale/toc.txt" />
     <entry file="file://$PROJECT_DIR$/class/SyncTocLink.php" />
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/ajax/getLinks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="75" column="72" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../patritheque/ajax/getLinks.php" />
     <entry file="file://$PROJECT_DIR$/views/pat.php" />
     <entry file="file://$PROJECT_DIR$/class/pat.php" />
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
@@ -289,13 +285,7 @@
     <entry file="file://$PROJECT_DIR$/nlp_json/nlp_2018/newsletter_18_01_11/corps/article_1_corps.inc.asp" />
     <entry file="file://$PROJECT_DIR$/nlp_json/recup_nlp/data(1).json" />
     <entry file="file://$PROJECT_DIR$/tools/PatCatPrefix.json" />
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque_local/wp-content/plugins/patritheque/views/plugins/ManagePatritheque.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../patritheque_local/wp-content/plugins/patritheque/views/plugins/ManagePatritheque.php" />
     <entry file="file://$PROJECT_DIR$/views/ManagePat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -324,48 +314,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/class/recups/Nlp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="150" column="63" lean-forward="true" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/class/plugins/links.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/views/widgets/ApiLinkDosWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/views/widgets/ApiLinkPatWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/views/widgets/ApiLinkNlpWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../_PLUGIN_AppPatPlugin_VERSION/AppPatPlugin_nlp_to_delete/nlp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../patritheque/class/recups/Nlp.php" />
+    <entry file="file://$PROJECT_DIR$/../patritheque/class/plugins/links.php" />
+    <entry file="file://$PROJECT_DIR$/../patritheque/views/widgets/ApiLinkDosWidget.php" />
+    <entry file="file://$PROJECT_DIR$/../patritheque/views/widgets/ApiLinkPatWidget.php" />
+    <entry file="file://$PROJECT_DIR$/../patritheque/views/widgets/ApiLinkNlpWidget.php" />
+    <entry file="file://$PROJECT_DIR$/../../../../_PLUGIN_AppPatPlugin_VERSION/AppPatPlugin_nlp_to_delete/nlp.php" />
     <entry file="file://$PROJECT_DIR$/js/linkSelect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -401,21 +355,9 @@
     <entry file="file://$PROJECT_DIR$/class/images.php" />
     <entry file="file://E:/PERSO/projects/_wp_api_appesct/AppEsct.php" />
     <entry file="file://E:/_wp_api_footkid/footkid.php" />
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/patritheque.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../patritheque/patritheque.php" />
     <entry file="file://$PROJECT_DIR$/class/nlp.php" />
-    <entry file="file://$PROJECT_DIR$/../../../../patritheque/wp-content/plugins/patritheque/class/recups/Logs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../patritheque/class/recups/Logs.php" />
     <entry file="file://$PROJECT_DIR$/class/logs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -423,55 +365,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/nlp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="164" column="28" lean-forward="true" selection-start-line="164" selection-start-column="28" selection-end-line="188" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/AjoutNlp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../_PLUGIN_AppPatPlugin_VERSION/AppPatPlugin_nlp_to_delete/class/SyncPatLink.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../_PLUGIN_AppPatPlugin_VERSION/AppPatPlugin_nlp_to_delete/class/ManagePat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../NewToc/ijn/07_Livrable/master/patritec.hhc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="3610" column="81" lean-forward="false" selection-start-line="3610" selection-start-column="81" selection-end-line="3610" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/ManagePat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3428">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/SyncLink.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="170" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="38" selection-end-column="170" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/nlp.php" />
+    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/AjoutNlp.php" />
+    <entry file="file://$PROJECT_DIR$/../../../../_PLUGIN_AppPatPlugin_VERSION/AppPatPlugin_nlp_to_delete/class/SyncPatLink.php" />
+    <entry file="file://$PROJECT_DIR$/../../../../_PLUGIN_AppPatPlugin_VERSION/AppPatPlugin_nlp_to_delete/class/ManagePat.php" />
+    <entry file="file://$PROJECT_DIR$/../../../../NewToc/ijn/07_Livrable/master/patritec.hhc" />
+    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/ManagePat.php" />
+    <entry file="file://$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/SyncLink.php" />
     <entry file="file://$PROJECT_DIR$/class/SyncPatLink.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -497,22 +397,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <marker date="1537968060610" expanded="true" signature="1015:1108" ph="CREATE TABLE... IF" />
-            <marker date="1537968060610" expanded="true" signature="1135:1261" ph="CREATE TABLE... IF" />
-            <marker date="1537968060610" expanded="true" signature="1288:1407" ph="CREATE TABLE... IF" />
-            <marker date="1537968060610" expanded="true" signature="1434:1566" ph="CREATE TABLE... IF" />
-            <marker date="1537968060610" expanded="true" signature="1594:1760" ph="CREATE TABLE... IF" />
-            <marker date="1537968060610" expanded="true" signature="1787:1953" ph="CREATE TABLE... IF" />
-            <marker date="1537968060610" expanded="true" signature="1981:2106" ph="CREATE TABLE... IF" />
-            <marker date="1537968060610" expanded="true" signature="2209:2249" ph="DROP TABLE I... " />
-            <marker date="1537968060610" expanded="true" signature="2276:2328" ph="DROP TABLE I... " />
-            <marker date="1537968060610" expanded="true" signature="2355:2395" ph="DROP TABLE I... " />
-            <marker date="1537968060610" expanded="true" signature="2422:2472" ph="DROP TABLE I... " />
-            <marker date="1537968060610" expanded="true" signature="2500:2553" ph="DROP TABLE I... " />
-            <marker date="1537968060610" expanded="true" signature="2580:2633" ph="DROP TABLE I... " />
-            <marker date="1537968060610" expanded="true" signature="2661:2708" ph="DROP TABLE I... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -532,10 +417,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+        <state relative-caret-position="159">
+          <caret line="179" column="30" lean-forward="false" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
           <folding>
-            <marker date="1539075838622" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
+            <marker date="1540939441540" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
           </folding>
         </state>
       </provider>

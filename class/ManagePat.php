@@ -176,6 +176,9 @@ class ManagePat
                             $corps = preg_replace('/src="..\/images\//','src="'.$UploadPath['url'].'/',$corps);
                             $corps = preg_replace('/src="..\/schemas\//','src="'.$UploadPath['url'].'/',$corps);
 
+                            //$exercpt = preg_replace("/\<fieldset id=\"cadre-resume\"\>(.*?)<\/fieldset\>/m","",$corps);
+                            //$exercpt = preg_replace("/<p class=\"encart-nouv\">(.*?)<\/p>/m","",$exercpt);
+
                             //Add NLP catégorie
                             $pat = term_exists( 'PAT', 'category' );
                             if (is_wp_error($pat) || $pat == NULL ) {
