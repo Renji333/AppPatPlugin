@@ -164,8 +164,7 @@ class ManagePat
                             $CatId = [];
                             $UploadPath = wp_upload_dir();
 
-                            preg_match('/<title>(.*?)<\/title>/m', $content, $matches);
-                            $title = $matches[1];
+
 
                             $corps = str_replace(array("\n", "\r"), '', $content);
 
@@ -175,6 +174,9 @@ class ManagePat
 
                             $corps = preg_replace('/src="..\/images\//','src="'.$UploadPath['url'].'/',$corps);
                             $corps = preg_replace('/src="..\/schemas\//','src="'.$UploadPath['url'].'/',$corps);
+
+                            preg_match('/<p class="titre-rubrique">(.*?)<a class="sous-titre-rubrique">(.*?)<\/a><\/p>/m', $corps, $matches);
+                            $title = $matches[2];
 
                             //$exercpt = preg_replace("/\<fieldset id=\"cadre-resume\"\>(.*?)<\/fieldset\>/m","",$corps);
                             //$exercpt = preg_replace("/<p class=\"encart-nouv\">(.*?)<\/p>/m","",$exercpt);
@@ -187,13 +189,11 @@ class ManagePat
                             array_push($CatId, $pat['term_id']);
 
                             //Add Aides catégorie Like Integrale, Essentiels
-                            $aideCat = term_exists( $_REQUEST["key"], 'category' );
+                            $aideCat = term_exists($_REQUEST["key"], 'category');
                             if (is_wp_error($aideCat) || $aideCat == NULL ) {
                                 $aideCat = wp_insert_term($_REQUEST["key"], 'category', ['parent' => $pat['term_id']]);
                             }
                             array_push($CatId, $aideCat['term_id']);
-
-
 
                             // Add Catégorie based on .htm préfixe
                             include_once plugin_dir_path( __FILE__ ).'../tools/PatArrayCat.php';
@@ -230,7 +230,7 @@ class ManagePat
                             }
 
                             $new_post = array(
-                                'post_title' => html_entity_decode($title),
+                                'post_title' => trim($title),
                                 'post_content' => $corps,
                                 'post_status' => 'publish',
                                 'post_author' => 1,
