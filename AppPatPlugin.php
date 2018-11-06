@@ -10,6 +10,8 @@ Author URI: https://github.com/Renji333
 License: GPL2
 */
 
+include_once(ABSPATH . 'wp-includes/pluggable.php');
+
 class AppPatPlugin {
 
     public function __construct(){
@@ -78,6 +80,20 @@ class AppPatPlugin {
     }
 
 }
+
+if ( ! function_exists( 'wp_check_password' ) ) :
+function wp_hash_password( $password ) {
+    global $wp_hasher;
+
+    if ( empty( $wp_hasher ) ) {
+        require_once( ABSPATH . WPINC . '/class-phpass.php' );
+        // By default, use the portable hash from phpass
+        $wp_hasher = new PasswordHash( 8, true );
+    }
+
+    return $wp_hasher->HashPassword( trim( $password ) );
+}
+endif;
 
 function pat_back_scripts($url){
 

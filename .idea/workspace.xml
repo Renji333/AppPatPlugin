@@ -23,13 +23,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ManagePat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ManagePat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="191" column="51" lean-forward="false" selection-start-line="191" selection-start-column="51" selection-end-line="191" selection-end-column="51" />
+            <state relative-caret-position="2159">
+              <caret line="127" column="81" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="81" />
               <folding>
-                <marker date="1540992081845" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
+                <marker date="1541001383863" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addUserSalesForce.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/addUserSalesForce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppPatPlugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <marker date="1541432456214" expanded="true" signature="1069:1162" ph="CREATE TABLE... IF" />
+                <marker date="1541432456214" expanded="true" signature="1189:1315" ph="CREATE TABLE... IF" />
+                <marker date="1541432456214" expanded="true" signature="1342:1461" ph="CREATE TABLE... IF" />
+                <marker date="1541432456214" expanded="true" signature="1488:1620" ph="CREATE TABLE... IF" />
+                <marker date="1541432456214" expanded="true" signature="1648:1814" ph="CREATE TABLE... IF" />
+                <marker date="1541432456214" expanded="true" signature="1841:2007" ph="CREATE TABLE... IF" />
+                <marker date="1541432456214" expanded="true" signature="2035:2160" ph="CREATE TABLE... IF" />
+                <marker date="1541432456214" expanded="true" signature="2263:2303" ph="DROP TABLE I... " />
+                <marker date="1541432456214" expanded="true" signature="2330:2382" ph="DROP TABLE I... " />
+                <marker date="1541432456214" expanded="true" signature="2409:2449" ph="DROP TABLE I... " />
+                <marker date="1541432456214" expanded="true" signature="2476:2526" ph="DROP TABLE I... " />
+                <marker date="1541432456214" expanded="true" signature="2554:2607" ph="DROP TABLE I... " />
+                <marker date="1541432456214" expanded="true" signature="2634:2687" ph="DROP TABLE I... " />
+                <marker date="1541432456214" expanded="true" signature="2715:2762" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -47,6 +82,8 @@
       <find>`</find>
       <find>idPostForLink</find>
       <find>isf_monaco</find>
+      <find>&quot;</find>
+      <find>soap12:</find>
     </findStrings>
     <replaceStrings>
       <replace>_&quot;,</replace>
@@ -54,6 +91,7 @@
       <replace />
       <replace>$patCat</replace>
       <replace>idPostInLink</replace>
+      <replace>'</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\wamp64\www\wordpress\wp-content\plugins\AppPatPlugin</dir>
@@ -91,8 +129,10 @@
         <option value="$PROJECT_DIR$/../../../../AppPatPlugin_nlp_import_last/class/AjoutNlp.php" />
         <option value="$PROJECT_DIR$/class/SyncPatLink.php" />
         <option value="$PROJECT_DIR$/class/SyncLink.php" />
-        <option value="$PROJECT_DIR$/AppPatPlugin.php" />
         <option value="$PROJECT_DIR$/class/ManagePat.php" />
+        <option value="$PROJECT_DIR$/class/user.xml" />
+        <option value="$PROJECT_DIR$/AppPatPlugin.php" />
+        <option value="$PROJECT_DIR$/class/addUserSalesForce.php" />
       </list>
     </option>
   </component>
@@ -104,7 +144,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="-117" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -125,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,10 +172,22 @@
               <item name="AppPatPlugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="AppPatPlugin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="AppPatPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppPatPlugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="class" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppPatPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppPatPlugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tools" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,18 +273,20 @@
       <workItem from="1540981041585" duration="3000" />
       <workItem from="1540981624441" duration="511000" />
       <workItem from="1540982443193" duration="1220000" />
-      <workItem from="1540988781652" duration="3668000" />
+      <workItem from="1540988781652" duration="3966000" />
+      <workItem from="1541423475324" duration="7072000" />
+      <workItem from="1541494475669" duration="1638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160175000" />
+    <option name="totallyTimeSpent" value="169183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1337953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10021322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -267,8 +319,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aides/integrale/toc.txt" />
-    <entry file="file://$PROJECT_DIR$/class/SyncTocLink.php" />
     <entry file="file://$PROJECT_DIR$/../patritheque/ajax/getLinks.php" />
     <entry file="file://$PROJECT_DIR$/views/pat.php" />
     <entry file="file://$PROJECT_DIR$/class/pat.php" />
@@ -398,10 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
+    <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -412,20 +462,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/SyncLink.php">
+    <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="2159">
+          <caret line="127" column="81" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="81" />
+          <folding>
+            <marker date="1541001383863" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/ManagePat.php">
+    <entry file="file://$PROJECT_DIR$/class/user.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="191" column="51" lean-forward="false" selection-start-line="191" selection-start-column="51" selection-end-line="191" selection-end-column="51" />
+        <state relative-caret-position="391">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPatPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1540992081845" expanded="true" signature="4086:4223" ph="SELECT idPos... $" />
+            <marker date="1541432456214" expanded="true" signature="1069:1162" ph="CREATE TABLE... IF" />
+            <marker date="1541432456214" expanded="true" signature="1189:1315" ph="CREATE TABLE... IF" />
+            <marker date="1541432456214" expanded="true" signature="1342:1461" ph="CREATE TABLE... IF" />
+            <marker date="1541432456214" expanded="true" signature="1488:1620" ph="CREATE TABLE... IF" />
+            <marker date="1541432456214" expanded="true" signature="1648:1814" ph="CREATE TABLE... IF" />
+            <marker date="1541432456214" expanded="true" signature="1841:2007" ph="CREATE TABLE... IF" />
+            <marker date="1541432456214" expanded="true" signature="2035:2160" ph="CREATE TABLE... IF" />
+            <marker date="1541432456214" expanded="true" signature="2263:2303" ph="DROP TABLE I... " />
+            <marker date="1541432456214" expanded="true" signature="2330:2382" ph="DROP TABLE I... " />
+            <marker date="1541432456214" expanded="true" signature="2409:2449" ph="DROP TABLE I... " />
+            <marker date="1541432456214" expanded="true" signature="2476:2526" ph="DROP TABLE I... " />
+            <marker date="1541432456214" expanded="true" signature="2554:2607" ph="DROP TABLE I... " />
+            <marker date="1541432456214" expanded="true" signature="2634:2687" ph="DROP TABLE I... " />
+            <marker date="1541432456214" expanded="true" signature="2715:2762" ph="DROP TABLE I... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/addUserSalesForce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
