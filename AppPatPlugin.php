@@ -37,7 +37,6 @@ class AppPatPlugin {
     {
 
         global $wpdb;
-        $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}logs (id INT AUTO_INCREMENT PRIMARY KEY, file TEXT);");
         $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}titles_and_links (id INT AUTO_INCREMENT PRIMARY KEY, idPost INT NOT NULL, file TEXT);");
         $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}tocs (id INT AUTO_INCREMENT PRIMARY KEY, aides VARCHAR(50), content LONGTEXT);");
         $wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}imported_files (id INT AUTO_INCREMENT PRIMARY KEY, aides VARCHAR(50), idPost INT NOT NULL);");
@@ -53,7 +52,6 @@ class AppPatPlugin {
     {
 
         global $wpdb;
-        $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}logs;");
         $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}titles_and_links;");
         $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}tocs;");
         $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}imported_files;");
@@ -80,20 +78,6 @@ class AppPatPlugin {
     }
 
 }
-
-if ( ! function_exists( 'wp_check_password' ) ) :
-function wp_hash_password( $password ) {
-    global $wp_hasher;
-
-    if ( empty( $wp_hasher ) ) {
-        require_once( ABSPATH . WPINC . '/class-phpass.php' );
-        // By default, use the portable hash from phpass
-        $wp_hasher = new PasswordHash( 8, true );
-    }
-
-    return $wp_hasher->HashPassword( trim( $password ) );
-}
-endif;
 
 function pat_back_scripts($url){
 

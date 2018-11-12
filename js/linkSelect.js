@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
 
     });
 
-    $('.selectPost[data-type="NLP"] option, .selectPost[data-type="DOS"] option').click(function() {
+    $('.selectPost[data-type="NLP"] option, .selectPost[data-type="PAT"] option').click(function() {
 
         var idPostInLink = $(this).attr('value'), idPost = parseInt($('#AddPatLinkId').val()), type = $(this).attr("data-type");
 
@@ -89,15 +89,6 @@ jQuery(document).ready(function($) {
 
         var dom = "";
 
-        if(type == "PAT"){
-
-            data.forEach(function(element) {
-                dom = dom + '<tr><th scope="row"><strong> '+element['id']+'</strong></th>';
-                dom = dom + '<td><strong><a href="'+urlSite['siteurl']+'/ressources/integrale/#t=html%2F'+element['linkPat']+'" target="_blank">'+element['titlePat']+'</a></strong></td>'
-                dom = dom + '<td class="TdDelLink"><button data-del="'+element['id']+'" data-type="'+type+'" class="btn btn-danger DelLink">Supprimer</a></td></tr>';
-            });
-
-        } else {
 
             data.forEach(function(element) {
 
@@ -111,7 +102,7 @@ jQuery(document).ready(function($) {
 
             });
 
-        }
+
 
         $(".tbodyLink[data-type='"+type+"']").html(dom);
 
