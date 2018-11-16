@@ -1,5 +1,7 @@
 <?php
 
+// Un test pour l'ajout d'utilisateur via SalesForce
+
 function addUserSalesForce($e){
 
     $xml = new SimpleXMLElement($e);

@@ -1,5 +1,7 @@
 <?php
 
+// les variables (catégories) contiennent les préfixes des pages pour lesquelles elles seront attribuées.
+
 $fiscalite = array("conseil_", "csg_", " d2035_", "d2042_", "d2044_", "d2047_", "d2074_", "fi_", "fiscal_", "ifi_", "isf_");
 
 $epargne_placements = array( "ban_", "bou_", "cre_", "vie_");

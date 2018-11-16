@@ -42,7 +42,7 @@
 
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Mettre à jour</button>
+                                <button type="submit" class="btn btn-primary Loadable">Mettre à jour</button>
 
                             </form>
 

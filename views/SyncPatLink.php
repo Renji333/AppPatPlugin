@@ -1,4 +1,4 @@
-<a class="btn btn-primary" href="?page=syncPat&actionPLUGIN=SyncPatLink" style="margin-bottom:10px;">Synchroniser</a>
+<a class="btn btn-primary Loadable" href="?page=syncPat&actionPLUGIN=SyncPatLink" style="margin-bottom:10px;">Synchroniser</a>
 
 <blockquote>
     <p>Après un clique sur le bouton "Synchroniser". Les anciens liens vers des fichiers (.htm) seront adaptés pour WordPress. </p>

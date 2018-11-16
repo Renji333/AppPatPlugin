@@ -1,5 +1,10 @@
 jQuery(document).ready(function($) {
 
+    $(".Loadable").click(function() {
+        var $btn = $(this);
+        $btn.button('loading');
+    });
+
     $( ".selectPost" ).each(function( index ) {
 
         var type = $(this).attr("data-type");

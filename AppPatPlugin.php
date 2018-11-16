@@ -33,6 +33,17 @@ class AppPatPlugin {
 
     }
 
+    // install() sert à créer les tables dans la base de données pour le plugin. Et cela, lors de l'activation.
+    /**
+
+     * titles_and_links => L'historisation des fichiers importés (cad l'id des articles avec le nom du fichier d'origine
+     * posts_views : les vues pour les articles.
+     * post_to_nlp_links : les liens (articles) qui sont en annexe.
+     * post_to_pat_links : les liens (Patrithèque) qui sont en annexe.
+     * imported_files : l'historique des fichiers importés.
+     * tocs : la table qui stocke les sommaires.
+
+     **/
     public static function install()
     {
 
@@ -48,6 +59,7 @@ class AppPatPlugin {
 
     }
 
+    // install() sert à supprimer les tables dans la base de données pour le plugin. Lors de sa désactivation.
     public static function uninstall()
     {
 
@@ -63,6 +75,7 @@ class AppPatPlugin {
 
     }
 
+    // check_post_del() sert à supprimer les résidus dans les tables du plugin lors de la suppression d'un article.
     public static function check_post_del( $post_id ){
         global $wpdb;
 
@@ -79,6 +92,7 @@ class AppPatPlugin {
 
 }
 
+// pat_back_scripts() sert à importer dans les pages admins les fichiers css, js neccessaire pour le plugin.
 function pat_back_scripts($url){
 
     wp_enqueue_style( 'bootstrap-pat',plugins_url().'/AppPatPlugin/css/bootstrap.css' );

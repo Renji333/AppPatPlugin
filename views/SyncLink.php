@@ -1,4 +1,4 @@
-<a class="btn btn-danger" href="?page=sync&actionPLUGIN=SyncLink" style="margin-bottom:10px;">Synchroniser</a>
+<a class="btn btn-danger Loadable" href="?page=sync&actionPLUGIN=SyncLink" style="margin-bottom:10px;">Synchroniser</a>
 
 <blockquote>
   <p>Après un clique sur le bouton "Synchroniser". Les anciens liens vers des fichiers (.asp), contenus dans les articles et les widgets "Newsletters" et "Dossiers" à droite, seront adaptés pour WordPress. </p>
